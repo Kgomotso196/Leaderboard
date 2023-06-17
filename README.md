@@ -162,8 +162,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **Implementing social media integration to allow users to share their scores and achievements with their friends and followers.**
 - [ ] **Providing detailed analytics and insights to both players and administrators.**
 - [ ] **Displaying performance trends, such as average scores, high scores, or progress over time, to help users track their improvement.**
