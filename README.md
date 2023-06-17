@@ -188,11 +188,7 @@ I would like to express my heartfelt gratitude to Microverse for providing me wi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **How do I integrate the Leaderboard API into my project?**
 
