@@ -28,7 +28,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is website that serves as a platform where scores from various players are showcased. Moreover, it provides users with the opportunity to submit their own scores. To ensure the seamless preservation of all data, the website relies on the dependable Leaderboard API service.
+**Leaderboard** is a website that serves as a platform where scores from various players are showcased. Moreover, it provides users with the opportunity to submit their own scores. To ensure the seamless preservation of all data, the website relies on the dependable Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML5
