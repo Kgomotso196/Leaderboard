@@ -9,14 +9,14 @@
   </head>
   <body>
     <main>
-      <h1 class="text-center">Leaderboard</h1>
+      <h1 class="text-center leaderboard-text">Leaderboard</h1><hr /><br>
 
       <section class="container mt-5">
         <div class="row">
           <div class="col-5">
             <div class="d-flex justify-content-between">
               <div class=""><h3>Recent scores</h3></div>
-              <div class=""><button type="button" class="btn btn-secondary">Refresh</button></div>
+              <div class=""><button type="button" class="btn btn-secondary" id="refresh">Refresh</button></div>
             </div>
             <div class="row mt-4">
               <table class="table table-striped border border-dark">
@@ -29,7 +29,7 @@
           <div class="col-5">
             <div class="container">
             <h3>Add your score</h3>
-              <div class="row mt-4">
+              <div class="row mt-4 text-end">
                 <form action="">
                   <input type="text" class="form-control my-3" id="name" placeholder="Your Name">
                   <input type="number" class="form-control my-3" id="score" placeholder="Your Score">

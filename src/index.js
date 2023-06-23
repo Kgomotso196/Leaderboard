@@ -1,22 +1,17 @@
 import './style.css';
+import Grades from './modules/fetchGrade.js';
+import uploadGrade from './modules/uploadGrade.js';
 
-const STATISTICS = [
-  { name: 'Name', grade: 100 },
-  { name: 'Name', grade: 20 },
-  { name: 'Name', grade: 50 },
-  { name: 'Name', grade: 78 },
-  { name: 'Name', grade: 125 },
-  { name: 'Name', grade: 77 },
-  { name: 'Name', grade: 42 },
-];
+const Document = document.querySelector('form');
+const refresh = document.querySelector('#refresh');
 
-const tbody = document.querySelector('.body-area');
+const grade = new Grades();
+grade.render();
 
-const records = STATISTICS.map((data) => `
-  <tr>
-    <td scope="row">${data.name}:</td>
-    <td>${data.grade}</td>
-  </tr>
-`).join('');
-
-tbody.innerHTML += records;
+refresh.addEventListener('click', () => {
+  window.location.reload();
+});
+Document.addEventListener('submit', (e) => {
+  e.preventDefault();
+  uploadGrade(grade.url, grade.render);
+});
