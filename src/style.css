@@ -1,7 +1,7 @@
-body {
-  margin-left: 80px;
+.table-striped {
+  width: 30%;
 }
 
-.table-striped {
-  width: 25%;
+.add-score {
+  text-align: end;
 }
